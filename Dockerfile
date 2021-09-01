@@ -2,8 +2,9 @@
 FROM ivanseidel/node-python-opencv:3.1.0
 
 MAINTAINER Ivan Seidel <ivanseidel@gmail.com>
-RUN curl -fsSL https://deb.nodesource.com/setup_16.x | bash - \
-apt-get install -y nodejs
+RUN curl -fsSL https://deb.nodesource.com/setup_16.x  
+RUN apt update \
+   && apt -y install nodejs
 #
 # Install Dependencies
 #
