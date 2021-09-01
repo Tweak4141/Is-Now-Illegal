@@ -18,6 +18,9 @@
   "bugs": {
     "url": "https://github.com/ivanseidel/Is-Now-Illegal/issues"
   },
+   "engines": {
+    "node": "16.x"
+  },
   "homepage": "https://github.com/ivanseidel/Is-Now-Illegal#readme",
   "dependencies": {
     "@google-cloud/storage": "^0.6.1",
